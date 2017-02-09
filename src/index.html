@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Angular 2 App</title>
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta charset='utf-8'>
+    <base href="/">
+  </head>
+  <body>
+    <my-app>Loading...</my-app>
+    <% if (htmlWebpackPlugin.options.metadata.isDevServer) { %>
+    <!-- DLL files -->
+    <script src="/polyfill.dll.js"></script>
+    <script src="/vendor.dll.js"></script>
+    <% } %>
+  </body>
+</html>

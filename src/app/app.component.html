@@ -1,0 +1,36 @@
+<div class="container">
+  <h1>Bar Chart</h1>
+  <ngx-charts-bar-vertical
+    [view]="[600,300]"
+    [results]="data"
+    [scheme]="colorScheme"
+    [xAxis]="true"
+    [yAxis]="true"
+    [legend]="true">
+  </ngx-charts-bar-vertical>
+
+  <!-- <ngx-charts-advanced-pie-chart
+    [scheme]="colorScheme"
+    [results]="data">
+  </ngx-charts-advanced-pie-chart> -->
+  <!--
+    <ngx-charts-tree-map
+      [scheme]="colorScheme"
+      [results]="data">
+    </ngx-charts-tree-map> -->
+
+  <!-- <ngx-charts-heat-map
+    [scheme]="colorScheme"
+    [results]="multi"
+    [xAxis]="true"
+    [yAxis]="true"
+    [legend]="true">
+  </ngx-charts-heat-map> -->
+
+    <h2>Custom Chart</h2>
+    <custom-chart
+      [view]="[600,300]"
+      [results]="data">
+    </custom-chart>
+
+</div>
