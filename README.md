@@ -12,7 +12,9 @@ Application is served on `ip:3000` (host is `0.0.0.0`)
 
 
 
-###Issue
-I'm having problem with creating custom `ngx-charts` graph.
-It always throws `ZoneAwareError` `Cannot read property 'run' of undefined`. I assume
-that the problem here is build setup, or did I forgot to import something?
+**Tested on**
+
+```bash
+node v7.4.0
+npm v4.0.5
+```
